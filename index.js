@@ -1,5 +1,6 @@
-function prueba( ){ 
-     let nombre = prompt('Como te llamas');
-     alert("Hola, como estas: " +nombre); 
-    //console.log("Hola Bernardo, Como estas?");
+function SaludarAaalguien()
+{
+    let nombre = document.getElementById("fname").value;
+    let apellido = document.getElementById("lname").value;
+    alert('Hola bienvenido : '+ nombre +" "+ apellido);
 }
